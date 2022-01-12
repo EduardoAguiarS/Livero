@@ -33,18 +33,18 @@ function Header() {
             </svg>
           </a>
           <ul className="hidden gap-5 md:flex">
-            <li className="p-3 text-lg transition ease-in-out delay-75 hover:text-red">
+            <li className="p-3 text-lg transition ease-in-out delay-75 text-wine hover:text-red">
               <button onClick={scrollToTop} className="font-extralight">
                 Início
               </button>
             </li>
-            <li className="p-3 text-lg transition ease-in-out delay-75 font-extralight hover:text-red">
+            <li className="p-3 text-lg transition ease-in-out delay-75 font-extralight text-wine hover:text-red">
               <a href="#">Serviços</a>
             </li>
-            <li className="p-3 text-lg transition ease-in-out delay-75 font-extralight hover:text-red">
+            <li className="p-3 text-lg transition ease-in-out delay-75 font-extralight text-wine hover:text-red">
               <a href="#">Cases</a>
             </li>
-            <li className="p-3 text-lg transition ease-in-out delay-75 font-extralight hover:text-red">
+            <li className="p-3 text-lg transition ease-in-out delay-75 font-extralight text-wine hover:text-red">
               <a href="#">Contato</a>
             </li>
           </ul>
