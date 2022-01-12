@@ -1,6 +1,8 @@
+import React from "react";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Header from "../components/Header";
+import Main from "../components/Main";
 const Home: NextPage = () => {
   return (
     <div>
@@ -8,7 +10,7 @@ const Home: NextPage = () => {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         {/* Title */}
-        <title>HubLocal | Seus sonhos se tornam negócios</title>
+        <title>Livero | Entregas e coletas</title>
         {/* Google Fonts Poppins */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -23,6 +25,7 @@ const Home: NextPage = () => {
       </Head>
       {/* Page Header */}
       <Header />
+      <Main />
     </div>
   );
 };
