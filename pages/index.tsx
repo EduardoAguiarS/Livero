@@ -7,7 +7,9 @@ const Home: NextPage = () => {
       <Head>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        {/* Title */}
         <title>HubLocal | Seus sonhos se tornam negócios</title>
+        {/* Google Fonts Poppins */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
@@ -19,6 +21,7 @@ const Home: NextPage = () => {
           rel="stylesheet"
         />
       </Head>
+      {/* Page Header */}
       <Header />
     </div>
   );
