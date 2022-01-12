@@ -1,13 +1,13 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
+import Header from "../components/Header";
 const Home: NextPage = () => {
   return (
     <div>
       <Head>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>HubLocal | Seus sonhos se tornam negócios</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
@@ -19,6 +19,7 @@ const Home: NextPage = () => {
           rel="stylesheet"
         />
       </Head>
+      <Header />
     </div>
   );
 };
