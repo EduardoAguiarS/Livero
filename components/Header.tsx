@@ -98,9 +98,7 @@ function Header() {
           <div className="container py-3 mt-3 rounded-md bg-red md:hidden">
             <ul className="gap-5">
               <li className="py-3 mb-3 text-lg text-center text-white transition ease-in-out delay-75 font-extralight">
-                <button onClick={scrollToTop} className="font-extralight">
-                  Início
-                </button>
+                <button className="font-extralight">Início</button>
               </li>
               <li className="py-3 mb-3 text-lg text-center text-white transition ease-in-out delay-75 font-extralight">
                 <a href="#">Sobre</a>
