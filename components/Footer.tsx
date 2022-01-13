@@ -8,6 +8,7 @@ export default function Footer() {
         <a
           href="https://www.linkedin.com/in/eduardo-aguiar-s/"
           target={`_blank`}
+          className="font-bold hover:text-yellow"
         >
           Eduardo Aguiar
         </a>
