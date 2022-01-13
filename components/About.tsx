@@ -14,11 +14,15 @@ export default function About() {
   }
 
   useEffect(() => {
-    Aos.init({ duration: 300 });
+    Aos.init();
   }, []);
 
   return (
-    <div className="mx-auto overflow-hidden bg-yellow" data-aos="fade-down">
+    <div
+      className="mx-auto overflow-hidden bg-yellow"
+      data-aos="fade-down"
+      data-aos-duration="700"
+    >
       <article className="container p-10 mx-auto text-center">
         <h1 className="text-3xl font-extrabold leading-loose text-red">
           Aqui{" "}
