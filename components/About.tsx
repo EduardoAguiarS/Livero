@@ -19,7 +19,7 @@ export default function About() {
 
   return (
     <div
-      className="mx-auto overflow-hidden bg-yellow"
+      className="mx-auto overflow-hidden bg-white"
       data-aos="fade-down"
       data-aos-duration="700"
     >
