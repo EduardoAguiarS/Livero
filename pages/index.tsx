@@ -3,10 +3,10 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Header from "../components/Header";
 import Main from "../components/Main";
-import Services from "../components/Services";
+import About from "../components/About";
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className="bg-white">
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         {/* Title */}
@@ -26,7 +26,7 @@ const Home: NextPage = () => {
       {/* Page Header */}
       <Header />
       <Main />
-      <Services />
+      <About />
     </div>
   );
 };

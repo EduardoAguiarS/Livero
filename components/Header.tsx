@@ -51,7 +51,7 @@ function Header() {
               <a href="#">Rastreamento</a>
             </li>
             <li className="py-3 text-lg text-center text-white transition ease-in-out delay-75 font-extralight">
-              <button className="px-8 py-2 text-white transition ease-in-out delay-75 rounded-md hover:bg-blue bg-yellow">
+              <button className="px-8 py-2 text-white transition ease-in-out delay-75 rounded-md hover:shadow-lg hover:bg-blue bg-yellow">
                 Entrar
               </button>
             </li>
