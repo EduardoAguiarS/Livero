@@ -11,6 +11,15 @@ module.exports = {
         wine: "#5B2448",
         blue: "#21A0AA",
         white: "#FFFAEA"
+      },
+      keyframes: {
+        wiggle: {
+          "0%, 100%": { transform: "rotate(-2deg)" },
+          "50%": { transform: "rotate(2deg)" }
+        }
+      },
+      animation: {
+        wiggle: "wiggle 1.3s ease-in-out infinite"
       }
     }
   },

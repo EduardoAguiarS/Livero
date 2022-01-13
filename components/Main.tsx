@@ -20,7 +20,7 @@ export default function Main() {
             Contratar serviços
           </button>
         </div>
-        <div className="">
+        <div className="animate-wiggle">
           <Image src={delivery} alt="delivery image" width={800} height={800} />
         </div>
       </div>
