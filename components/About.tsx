@@ -12,7 +12,7 @@ export default function About() {
   }
 
   return (
-    <div className="py-10 mx-auto bg-yellow">
+    <div className="mx-auto bg-yellow">
       <article className="container p-10 mx-auto text-center">
         <h1 className="text-3xl font-extrabold leading-loose text-red ">
           Aqui a{" "}
