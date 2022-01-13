@@ -10,16 +10,20 @@ export default function About() {
   }
 
   return (
-    <div className="py-10 mx-auto bg-blue">
-      <article className="container px-10 mx-auto text-center md:rounded-md">
+    <div className="py-10 mx-auto ">
+      <article className="container p-10 mx-auto text-center md:rounded-md bg-yellow">
         <h1 className="text-3xl font-extrabold leading-loose text-red ">
           Aqui a{" "}
-          <strong className="px-2 py-1 rounded-md bg-yellow">logística</strong>{" "}
+          <strong className="px-2 py-1 rounded-md bg-red text-yellow">
+            logística
+          </strong>{" "}
           e a{" "}
-          <strong className="px-2 py-1 rounded-md bg-yellow ">lógica</strong>{" "}
+          <strong className="px-2 py-1 rounded-md bg-red text-yellow">
+            lógica
+          </strong>{" "}
           trabalham lado a lado.
         </h1>
-        <section className="mt-3 text-lg font-light text-white">
+        <section className="mt-3 text-lg font-light text-wine">
           <p>
             A Livero surgiu com a intenção de revolucionar o mercado de
             logística, com o foco principal em dar as pessoas a possibilidade de
@@ -38,7 +42,7 @@ export default function About() {
             Saiba mais sobre nós nas redes sociais!
           </h2>
           <ul className="flex items-center justify-center gap-3 mt-3">
-            <li className="cursor-pointer">
+            <li className="block cursor-pointer">
               <Image
                 src={Facebook}
                 alt="facebook"
