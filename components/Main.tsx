@@ -11,10 +11,10 @@ export default function Main() {
             Comprar o que quiser, a onde quiser.
           </h1>
           <p className="mb-12 text-lg text-wine font-extralight">
-            Aqui na Livero pegamos as suas compras e levamos até você, podendo
-            comprar em lojas que não oferecem entregas, dentro e fora da sua
-            cidade que nos faremos a logistica até a sua casa ou poderá retirar
-            conosco quando quiser.
+            Aqui na Livero pegamos as suas compras e levamos até você, você
+            tambem pode comprar em lojas que não oferecem entregas dentro e fora
+            da sua cidade, e nos faremos a logistica até a sua casa se preferir
+            poderá retirar conosco quando quiser.
           </p>
           <button className="p-3 text-white uppercase transition ease-in-out delay-75 rounded-md hover:bg-blue bg-yellow">
             Contratar serviços
