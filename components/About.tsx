@@ -1,6 +1,8 @@
-// react / Next
-import React from "react";
+// react / Next / Aos
+import React, { useEffect } from "react";
 import Image from "next/image";
+import Aos from "aos";
+import "aos/dist/aos.css";
 // Imgs
 import Facebook from "../public/facebook.svg";
 import Instagram from "../public/instagram.svg";
@@ -11,8 +13,12 @@ export default function About() {
     window.open(url);
   }
 
+  useEffect(() => {
+    Aos.init({ duration: 500 });
+  }, []);
+
   return (
-    <div className="mx-auto bg-yellow">
+    <div className="mx-auto bg-yellow" data-aos="fade-down">
       <article className="container p-10 mx-auto text-center">
         <h1 className="text-3xl font-extrabold leading-loose text-red ">
           Aqui a{" "}
