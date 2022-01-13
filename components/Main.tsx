@@ -4,8 +4,8 @@ import delivery from "../public/delivery.svg";
 
 export default function Main() {
   return (
-    <div className="relative block px-3 bg-white top-16">
-      <div className="py-10 mx-auto md:flex md:items-center md:justify-between md:container">
+    <div className="block px-3 bg-white">
+      <div className="relative py-10 mx-auto md:flex md:items-center md:justify-between md:container top-16">
         <div className="text-center md:mr-24 md:flex-1 md:text-left">
           <h1 className="mb-12 text-5xl font-bold md:text-6xl text-red">
             Comprar o que quiser, a onde quiser.
