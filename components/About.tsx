@@ -1,5 +1,7 @@
-import Image from "next/image";
+// react / Next
 import React from "react";
+import Image from "next/image";
+// Imgs
 import Facebook from "../public/facebook.svg";
 import Instagram from "../public/instagram.svg";
 import Twitter from "../public/twitter.svg";

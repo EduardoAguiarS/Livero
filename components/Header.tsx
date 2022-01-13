@@ -1,17 +1,11 @@
 import React, { useState } from "react";
+import Link from "next/link";
 
 function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);
   const toggleNav = () => {
     setToggleMenu(!toggleMenu);
   };
-
-  function scrollToTop() {
-    window.scroll({
-      top: 0,
-      behavior: "smooth"
-    });
-  }
 
   return (
     <div className="fixed z-10 w-full">
@@ -34,21 +28,29 @@ function Header() {
           </a>
           <ul className="items-center hidden gap-5 md:flex">
             <li className="p-3 text-lg transition ease-in-out delay-75 text-wine hover:text-red">
-              <button onClick={scrollToTop} className="font-extralight">
-                Início
-              </button>
+              <Link href="/">
+                <a>Inicio</a>
+              </Link>
             </li>
             <li className="p-3 text-lg transition ease-in-out delay-75 font-extralight text-wine hover:text-red">
-              <a href="#">Sobre</a>
+              <Link href={"/"}>
+                <a>Sobre</a>
+              </Link>
             </li>
             <li className="p-3 text-lg transition ease-in-out delay-75 font-extralight text-wine hover:text-red">
-              <a href="#">Soluções Logisticas</a>
+              <Link href={"/"}>
+                <a>Soluções Logisticas</a>
+              </Link>
             </li>
             <li className="p-3 text-lg transition ease-in-out delay-75 font-extralight text-wine hover:text-red">
-              <a href="#">Atendimento</a>
+              <Link href={"/"}>
+                <a>Atendimento</a>
+              </Link>
             </li>
             <li className="p-3 text-lg transition ease-in-out delay-75 font-extralight text-wine hover:text-red">
-              <a href="#">Rastreamento</a>
+              <Link href={"/"}>
+                <a>Rastreamento</a>
+              </Link>
             </li>
             <li className="py-3 text-lg text-center text-white transition ease-in-out delay-75 font-extralight">
               <button className="px-8 py-2 text-white transition ease-in-out delay-75 rounded-md hover:shadow-lg hover:bg-blue bg-yellow">
@@ -106,10 +108,10 @@ function Header() {
               <li className="py-3 mb-3 text-lg text-center text-white transition ease-in-out delay-75 font-extralight">
                 <a href="#">Soluções Logisticas</a>
               </li>
-              <li className="py-3 text-lg text-center text-white transition ease-in-out delay-75 font-extralight">
+              <li className="py-3 mb-3 text-lg text-center text-white transition ease-in-out delay-75 font-extralight">
                 <a href="#">Atendimento</a>
               </li>
-              <li className="py-3 text-lg text-center text-white transition ease-in-out delay-75 font-extralight">
+              <li className="py-3 mb-3 text-lg text-center text-white transition ease-in-out delay-75 font-extralight">
                 <a href="#">Rastreamento</a>
               </li>
               <li className="py-3 text-lg text-center text-white transition ease-in-out delay-75 font-extralight">
