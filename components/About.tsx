@@ -66,8 +66,8 @@ export default function About() {
               <Image
                 src={Facebook}
                 alt="facebook"
-                width={49}
-                height={49}
+                width={50}
+                height={50}
                 onClick={() => linkOpen("https://www.facebook.com/")}
               />
             </li>
@@ -76,8 +76,8 @@ export default function About() {
               <Image
                 src={Instagram}
                 alt="Instagram"
-                width={49}
-                height={49}
+                width={50}
+                height={50}
                 onClick={() => linkOpen("https://www.instagram.com/")}
               />
             </li>
@@ -86,8 +86,8 @@ export default function About() {
               <Image
                 src={Twitter}
                 alt="Twitter"
-                width={49}
-                height={49}
+                width={50}
+                height={50}
                 onClick={() => linkOpen("https://www.twitter.com/")}
               />
             </li>
