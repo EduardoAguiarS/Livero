@@ -14,18 +14,18 @@ export default function About() {
   }
 
   useEffect(() => {
-    Aos.init({ duration: 500 });
+    Aos.init({ duration: 300 });
   }, []);
 
   return (
-    <div className="mx-auto overflow-hidden bg-yellow" data-aos="zoom-in-right">
+    <div className="mx-auto overflow-hidden bg-yellow" data-aos="fade-down">
       <article className="container p-10 mx-auto text-center">
-        <h1 className="text-3xl font-extrabold leading-loose text-red ">
-          Aqui a{" "}
+        <h1 className="text-3xl font-extrabold leading-loose text-red">
+          Aqui{" "}
           <strong className="px-2 py-1 rounded-md bg-red text-yellow">
             logística
           </strong>{" "}
-          e a{" "}
+          e{" "}
           <strong className="px-2 py-1 rounded-md bg-red text-yellow">
             lógica
           </strong>{" "}
@@ -46,10 +46,18 @@ export default function About() {
             tirar duvidas, buscando sempre transformar todo o processo de
             entrega em algo agradável.{" "}
           </p>
-          <h2 className="mt-6 text-2xl font-bold text-red">
+          <h2
+            className="mt-6 text-2xl font-bold text-red"
+            data-aos="fade-down"
+            data-aos-duration="800"
+          >
             Saiba mais sobre nós nas redes sociais!
           </h2>
-          <ul className="flex items-center justify-center gap-3 mt-3">
+          <ul
+            className="flex items-center justify-center gap-3 mt-3"
+            data-aos="fade-up"
+            data-aos-duration="900"
+          >
             <li className="block cursor-pointer">
               <Image
                 src={Facebook}

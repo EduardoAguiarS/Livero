@@ -98,19 +98,29 @@ function Header() {
           <div className="container py-3 mt-3 rounded-md bg-red md:hidden">
             <ul className="gap-5">
               <li className="py-3 mb-3 text-lg text-center text-white transition ease-in-out delay-75 font-extralight">
-                <button className="font-extralight">Início</button>
+                <Link href="/">
+                  <a>Inicio</a>
+                </Link>
               </li>
               <li className="py-3 mb-3 text-lg text-center text-white transition ease-in-out delay-75 font-extralight">
-                <a href="#">Sobre</a>
+                <Link href={"/"}>
+                  <a>Sobre</a>
+                </Link>
               </li>
               <li className="py-3 mb-3 text-lg text-center text-white transition ease-in-out delay-75 font-extralight">
-                <a href="#">Soluções Logisticas</a>
+                <Link href={"/"}>
+                  <a>Soluções Logisticas</a>
+                </Link>
               </li>
               <li className="py-3 mb-3 text-lg text-center text-white transition ease-in-out delay-75 font-extralight">
-                <a href="#">Atendimento</a>
+                <Link href={"/"}>
+                  <a>Atendimento</a>
+                </Link>
               </li>
               <li className="py-3 mb-3 text-lg text-center text-white transition ease-in-out delay-75 font-extralight">
-                <a href="#">Rastreamento</a>
+                <Link href={"/"}>
+                  <a>Rastreamento</a>
+                </Link>
               </li>
               <li className="py-3 text-lg text-center text-white transition ease-in-out delay-75 font-extralight">
                 <button className="px-8 py-2 text-white uppercase transition ease-in-out delay-75 rounded-md hover:bg-blue bg-yellow">
