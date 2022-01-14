@@ -8,7 +8,7 @@ export default function Main() {
       <div className="relative mx-auto mt-10 md:flex md:items-center md:justify-between md:container top-16">
         <div className="text-center md:mr-24 md:flex-1 md:text-left">
           <h1 className="mb-12 text-5xl font-bold md:text-6xl text-red">
-            Comprar o que quiser, a onde quiser.
+            Comprar o que quiser, onde quiser.
           </h1>
           <p className="mb-12 text-lg text-wine font-extralight">
             Aqui na Livero pegamos as suas compras e levamos até você, você
