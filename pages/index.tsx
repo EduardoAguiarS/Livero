@@ -6,6 +6,7 @@ import Main from "../components/Main";
 import Services from "../components/Services";
 import About from "../components/About";
 import Footer from "../components/Footer";
+import Download from "../components/Download";
 const Home: NextPage = () => {
   return (
     <div className="bg-white">
@@ -29,6 +30,7 @@ const Home: NextPage = () => {
       <Header />
       <Main />
       <Services />
+      <Download />
       <About />
       <Footer />
     </div>
