@@ -12,8 +12,8 @@ export default function Main() {
           </h1>
           <p className="mb-12 text-lg text-wine font-extralight">
             Aqui na Livero pegamos as suas compras e levamos até você, você
-            tambem pode comprar em lojas que não oferecem entregas dentro e fora
-            da sua cidade, e nos faremos a logistica até a sua casa, ou se
+            tambem pode comprar em lojas que não oferecem entregas, dentro e
+            fora da sua cidade, e nos faremos a logistica até a sua casa, ou se
             preferir poderá retirar conosco quando quiser.
           </p>
           <button className="p-3 text-white uppercase transition ease-in-out delay-75 rounded-md hover:shadow-lg hover:bg-blue bg-yellow">

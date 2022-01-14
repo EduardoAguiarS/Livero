@@ -35,9 +35,9 @@ export default function Services() {
             </div>
             <h2 className="mb-3 text-xl text-yellow">Entregas</h2>
             <p className="text-lg text-white font-extralight">
-              Coletamos o seu pedido com empresas que não fornecem serviços de
-              entrega, o se preferir pode retirar nos nossos pontos de entrega
-              no horário que preferir.
+              Coletamos o seu pedido em lojas que não fornecem serviços de
+              entrega e levaremos até você, ou se preferir pode retirar em um
+              dos nossos pontos de entrega no horário que preferir.
             </p>
           </div>
 
@@ -53,7 +53,7 @@ export default function Services() {
             <h2 className="mb-3 text-xl text-yellow">Compras</h2>
             <p className="text-lg text-white font-extralight">
               Iremos até à loja que você quiser e faremos a compra no seu lugar
-              e levamos o produto até você, caso seja necessário, faremos a
+              e levaremos o produto até você, caso seja necessário, faremos a
               operação inversa em caso de trocas.
             </p>
           </div>
@@ -121,8 +121,8 @@ export default function Services() {
             </div>
             <h2 className="mb-3 text-xl text-yellow">Parceiros</h2>
             <p className="text-lg text-white font-extralight">
-              Hoje buscamos o máximo de empresas parceiras, integrando os nossos
-              sistemas ao sistema das empresas, para gerar uma rede de
+              Hoje buscamos o máximo de empresas parceiras, integrando o nosso
+              sistema ao sistema das empresas, para gerar uma rede de
               comunicação mais eficiente entre as partes.
             </p>
           </div>

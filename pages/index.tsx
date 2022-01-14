@@ -28,7 +28,11 @@ const Home: NextPage = () => {
           rel="stylesheet"
         />
       </Head>
-      <div className="fixed z-30 flex items-center justify-center rounded-full shadow-xl cursor-pointer w-14 h-14 md:w-16 md:h-16 bg-red bottom-3 right-3">
+      {/* Botão de Chat */}
+      <div
+        title="Fale Conosco"
+        className="fixed z-30 flex items-center justify-center rounded-full shadow-xl cursor-pointer w-14 h-14 md:w-16 md:h-16 bg-red bottom-3 right-3"
+      >
         <Image src={Chat} width={30} height={30} alt="Chat" />
       </div>
       <Header />

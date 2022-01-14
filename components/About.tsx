@@ -45,10 +45,10 @@ export default function About() {
           </p>
           <p className="mt-3">
             Nós entendemos que esperar por um produto pode gerar uma ansiedade,
-            então dentro da Livero nos buscamos sempre manter as pessoas
-            informadas sobre suas entregas, e estamos sempre a disposição para
-            tirar dúvidas, buscando sempre transformar todo o processo de
-            entrega em algo agradável.
+            então dentro da Livero sempre buscamos manter as pessoas informadas
+            sobre suas entregas, e estamos sempre a disposição para tirar
+            dúvidas, buscando sempre transformar todo o processo de entrega em
+            algo agradável.
           </p>
           <h2
             className="mt-10 text-2xl font-bold text-red"
