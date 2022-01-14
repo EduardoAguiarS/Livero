@@ -12,7 +12,7 @@ import Local from "../public/services/local.svg";
 import Timer from "../public/services/timer.svg";
 import Hands from "../public/services/hands.svg";
 
-export default function services() {
+export default function Services() {
   useEffect(() => {
     Aos.init();
   }, []);
@@ -31,7 +31,7 @@ export default function services() {
             data-aos-duration="1000"
           >
             <div className="block mx-auto mb-3">
-              <Image src={Delivery} />
+              <Image src={Delivery} alt="Delivery" />
             </div>
             <h2 className="mb-3 text-xl text-yellow">Entregas</h2>
             <p className="text-lg text-white font-extralight">
@@ -48,7 +48,7 @@ export default function services() {
             data-aos-duration="1000"
           >
             <div className="block mx-auto mb-3">
-              <Image src={Market} />
+              <Image src={Market} alt="Market" />
             </div>
             <h2 className="mb-3 text-xl text-yellow">Compras</h2>
             <p className="text-lg text-white font-extralight">
@@ -65,7 +65,7 @@ export default function services() {
             data-aos-duration="1000"
           >
             <div className="block mx-auto mb-3">
-              <Image src={Box} />
+              <Image src={Box} alt="Box" />
             </div>
             <h2 className="mb-3 text-xl text-yellow">Armazenagem</h2>
             <p className="text-lg text-white font-extralight">
@@ -83,7 +83,7 @@ export default function services() {
             data-aos-duration="1000"
           >
             <div className="block mx-auto mb-3">
-              <Image src={Local} />
+              <Image src={Local} alt="GPS" />
             </div>
             <h2 className="mb-3 text-xl text-yellow">Rastreamento</h2>
             <p className="text-lg text-white font-extralight">
@@ -100,7 +100,7 @@ export default function services() {
             data-aos-duration="1000"
           >
             <div className="block mx-auto mb-3">
-              <Image src={Timer} />
+              <Image src={Timer} alt="timer" />
             </div>
             <h2 className="mb-3 text-xl text-yellow">No seu tempo</h2>
             <p className="text-lg text-white font-extralight">
@@ -117,7 +117,7 @@ export default function services() {
             data-aos-duration="1000"
           >
             <div className="block mx-auto mb-3">
-              <Image src={Hands} />
+              <Image src={Hands} alt="hands shake" />
             </div>
             <h2 className="mb-3 text-xl text-yellow">Parceiros</h2>
             <p className="text-lg text-white font-extralight">
