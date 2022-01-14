@@ -23,7 +23,7 @@ export default function About() {
       data-aos="fade-down"
       data-aos-duration="700"
     >
-      <article className="container p-10 mx-auto text-center">
+      <article className="container px-3 py-20 mx-auto text-center">
         <h1 className="text-3xl font-extrabold leading-loose text-red">
           Aqui{" "}
           <strong className="px-2 py-1 rounded-md bg-red text-yellow">
@@ -35,7 +35,7 @@ export default function About() {
           </strong>{" "}
           trabalham lado a lado.
         </h1>
-        <section className="mt-3 text-lg font-light text-wine">
+        <section className="mt-6 text-lg font-light text-wine">
           <p>
             A Livero surgiu com a intenção de revolucionar o mercado de
             logística, com o foco principal em dar as pessoas a possibilidade de
@@ -44,14 +44,14 @@ export default function About() {
             cidades do interior.
           </p>
           <p className="mt-3">
-            Nos entendemos que esperar por um produto pode gerar uma ansiedade,
+            Nós entendemos que esperar por um produto pode gerar uma ansiedade,
             então dentro da Livero nos buscamos sempre manter as pessoas
             informadas sobre suas entregas, e estamos sempre a disposição para
-            tirar duvidas, buscando sempre transformar todo o processo de
-            entrega em algo agradável.{" "}
+            tirar dúvidas, buscando sempre transformar todo o processo de
+            entrega em algo agradável.
           </p>
           <h2
-            className="mt-6 text-2xl font-bold text-red"
+            className="mt-10 text-2xl font-bold text-red"
             data-aos="fade-down"
             data-aos-duration="800"
           >

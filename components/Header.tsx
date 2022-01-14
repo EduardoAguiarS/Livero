@@ -39,7 +39,7 @@ function Header() {
             </li>
             <li className="p-3 text-lg transition ease-in-out delay-75 font-extralight text-wine hover:text-red">
               <Link href={"/"}>
-                <a>Soluções Logisticas</a>
+                <a>Soluções Logísticas</a>
               </Link>
             </li>
             <li className="p-3 text-lg transition ease-in-out delay-75 font-extralight text-wine hover:text-red">
@@ -109,7 +109,7 @@ function Header() {
               </li>
               <li className="py-3 mb-3 text-lg text-center text-white transition ease-in-out delay-75 font-extralight">
                 <Link href={"/"}>
-                  <a>Soluções Logisticas</a>
+                  <a>Soluções Logísticas</a>
                 </Link>
               </li>
               <li className="py-3 mb-3 text-lg text-center text-white transition ease-in-out delay-75 font-extralight">
