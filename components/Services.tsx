@@ -18,7 +18,7 @@ export default function services() {
   }, []);
 
   return (
-    <div className="bg-blue" data-aos="fade-up" data-aos-duration="500">
+    <div className="mt-20 bg-blue" data-aos="fade-up" data-aos-duration="500">
       <article className="py-20 md:mx-auto md:container">
         <h1 className="mb-10 text-3xl font-extrabold text-center text-yellow">
           Infinitas possibilidades para lhe atender!
