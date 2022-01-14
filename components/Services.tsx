@@ -1,5 +1,10 @@
-import React from "react";
+// React / Next / Aos
+import React, { useEffect } from "react";
 import Image from "next/image";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
+// Image
 import Delivery from "../public/services/delivery.svg";
 import Market from "../public/services/market.svg";
 import Box from "../public/services/box.svg";
@@ -8,15 +13,23 @@ import Timer from "../public/services/timer.svg";
 import Hands from "../public/services/hands.svg";
 
 export default function services() {
+  useEffect(() => {
+    Aos.init();
+  }, []);
+
   return (
-    <div className="bg-blue">
+    <div className="bg-blue" data-aos="fade-up" data-aos-duration="500">
       <article className="py-20 md:mx-auto md:container">
         <h1 className="mb-10 text-3xl font-extrabold text-center text-yellow">
           Infinitas possibilidades para lhe atender!
         </h1>
         <section className="flex flex-wrap justify-center gap-x-40 gap-y-5 md:items-baseline">
           {/* Delivery */}
-          <div className="p-5 text-center w-80">
+          <div
+            className="p-5 text-center w-80"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
             <div className="block mx-auto mb-3">
               <Image src={Delivery} />
             </div>
@@ -29,7 +42,11 @@ export default function services() {
           </div>
 
           {/* Market */}
-          <div className="p-5 text-center w-80">
+          <div
+            className="p-5 text-center w-80"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
             <div className="block mx-auto mb-3">
               <Image src={Market} />
             </div>
@@ -42,7 +59,11 @@ export default function services() {
           </div>
 
           {/* Invetory */}
-          <div className="p-5 text-center w-80">
+          <div
+            className="p-5 text-center w-80"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
             <div className="block mx-auto mb-3">
               <Image src={Box} />
             </div>
@@ -56,7 +77,11 @@ export default function services() {
           </div>
 
           {/* Rastreamento */}
-          <div className="p-5 text-center w-80">
+          <div
+            className="p-5 text-center w-80"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
             <div className="block mx-auto mb-3">
               <Image src={Local} />
             </div>
@@ -69,7 +94,11 @@ export default function services() {
           </div>
 
           {/* Time */}
-          <div className="p-5 text-center w-80">
+          <div
+            className="p-5 text-center w-80"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
             <div className="block mx-auto mb-3">
               <Image src={Timer} />
             </div>
@@ -82,7 +111,11 @@ export default function services() {
           </div>
 
           {/* Networking */}
-          <div className="p-5 text-center w-80">
+          <div
+            className="p-5 text-center w-80"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
             <div className="block mx-auto mb-3">
               <Image src={Hands} />
             </div>
@@ -94,7 +127,11 @@ export default function services() {
             </p>
           </div>
         </section>
-        <button className="block p-3 mx-auto mt-10 text-white uppercase transition ease-in-out delay-75 rounded-md hover:shadow-lg hover:bg-yellow bg-red">
+        <button
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="block p-3 mx-auto mt-10 text-white uppercase transition ease-in-out delay-75 rounded-md hover:shadow-lg hover:bg-yellow bg-red"
+        >
           Soluções Logísticas
         </button>
       </article>

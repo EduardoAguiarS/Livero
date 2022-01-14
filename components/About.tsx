@@ -20,7 +20,7 @@ export default function About() {
   return (
     <div
       className="mx-auto overflow-hidden bg-white"
-      data-aos="fade-right"
+      data-aos="fade-up"
       data-aos-duration="700"
     >
       <article className="container px-3 py-20 mx-auto text-center">
